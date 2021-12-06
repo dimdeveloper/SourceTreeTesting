@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        save()
         // Do any additional setup after loading the view.
     }
 
-
+    func save() {
+        print("save function")
+    }
 }
 
