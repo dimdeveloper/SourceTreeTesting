@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     func save() {
-        print("save function")
+        print("save function without paarmeters")
     }
 }
 
