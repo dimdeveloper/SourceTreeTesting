@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         print(save())
         // Do any additional setup after loading the view.
     }
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     func save() -> Int{
         print("save function without paarmeters")
         return 5
+
     }
 }
 
