@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
 
     func save(name: String) -> String {
-        return "Hello \(name)"
+        return "Hello \(name), how are you?"
 
     }
 }
