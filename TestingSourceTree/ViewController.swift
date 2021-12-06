@@ -11,12 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        save()
+        print(save(name: "Dmitriy"))
         // Do any additional setup after loading the view.
     }
 
-    func save() {
-        print("save function")
+    func save(name: String) -> String {
+        return "Hello \(name)"
     }
 }
 
